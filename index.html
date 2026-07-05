@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Doyoung — 独立设计师与创意开发者作品集" />
+  <title>Doyoung — Selected Work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"><span>VIEW</span></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="wordmark" href="#top" aria-label="回到顶部">DY<span class="dot"></span></a>
+    <nav class="gradient-menu" aria-label="快捷导航">
+      <a href="#top" class="menu-item" style="--from:#a955ff;--to:#ea51ff" aria-label="Home"><span class="menu-fill"></span><span class="menu-glow"></span><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8v9a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg><span class="menu-title">Home</span></a>
+      <a href="#work" class="menu-item" style="--from:#56CCF2;--to:#2F80ED" aria-label="Video"><span class="menu-fill"></span><span class="menu-glow"></span><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3z"/></svg><span class="menu-title">Video</span></a>
+      <a href="#work" class="menu-item" data-menu-filter="identity" style="--from:#FF9966;--to:#FF5E62" aria-label="Photo"><span class="menu-fill"></span><span class="menu-glow"></span><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="m8 6 1.5-2h5L16 6"/><circle cx="12" cy="13" r="4"/></svg><span class="menu-title">Photo</span></a>
+      <a href="mailto:hello@example.com" class="menu-item" style="--from:#80FF72;--to:#7EE8FA" aria-label="Share"><span class="menu-fill"></span><span class="menu-glow"></span><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></svg><span class="menu-title">Share</span></a>
+      <a href="#work" class="menu-item" style="--from:#ffa9c6;--to:#f434e2" aria-label="Tym"><span class="menu-fill"></span><span class="menu-glow"></span><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8z"/></svg><span class="menu-title">Tym</span></a>
+    </nav>
+    <a class="availability" href="mailto:hello@example.com"><i></i> Available for work</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow reveal">Independent designer & creative developer<br>Based in Singapore · Working worldwide</p>
+      <h1 class="hero-title" aria-label="Zhang yawen">
+        <span class="line"><span>Zhang</span></span>
+        <span class="line"><span><em>yawen</em></span></span>
+      </h1>
+      <div class="hero-foot reveal">
+        <p>我为品牌和数字产品创造<br>清晰、好看、令人记住的体验。</p>
+        <a href="#work" class="scroll-link">Selected work <span>↓</span></a>
+      </div>
+      <div class="hero-canvas" aria-label="可自由摆放的图片画布" data-testid="hero-canvas">
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片一；点击置于顶层" data-z="6" data-x="39" data-y="9" data-w="31" data-mx="48" data-my="6" data-mw="36"><img src="assets/hero/photo-01.webp" alt="窗边绿意中的人物照片" draggable="false"></div>
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片二；点击置于顶层" data-z="2" data-x="7" data-y="7" data-w="30" data-mx="4" data-my="10" data-mw="34"><img src="assets/hero/photo-02.webp" alt="窗边两人的合影" draggable="false"></div>
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片三；点击置于顶层" data-z="4" data-x="47" data-y="57" data-w="46" data-mx="48" data-my="58" data-mw="48"><img src="assets/hero/photo-03.webp" alt="室内人物自拍" draggable="false"></div>
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片四；点击置于顶层" data-z="1" data-x="68" data-y="5" data-w="27" data-mx="67" data-my="7" data-mw="30"><img src="assets/hero/photo-04.webp" alt="夜晚街道上的人物照片" draggable="false"></div>
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片五；点击置于顶层" data-z="3" data-x="5" data-y="50" data-w="29" data-mx="5" data-my="53" data-mw="32"><img src="assets/hero/photo-05.webp" alt="两人的近距离合影" draggable="false"></div>
+        <div class="drag-card" tabindex="0" role="button" aria-label="拖动照片六；点击置于顶层" data-z="5" data-x="27" data-y="37" data-w="45" data-mx="29" data-my="37" data-mw="47"><img src="assets/hero/photo-06.webp" alt="室内使用手机的人物照片" draggable="false"></div>
+        <p class="canvas-hint"><span aria-hidden="true">↔</span> Drag to move · 拖动看看</p>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <header class="section-head reveal">
+        <div><span class="index">01</span><h2>Selected work</h2></div>
+        <div class="filters" role="group" aria-label="项目筛选">
+          <button class="active filter-item" data-filter="all" style="--from:#a955ff;--to:#ea51ff" aria-label="我的"><span class="filter-fill"></span><span class="filter-glow"></span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span class="filter-title">我的</span></button>
+          <button class="filter-item" data-filter="identity" style="--from:#FF9966;--to:#FF5E62" aria-label="项目"><span class="filter-fill"></span><span class="filter-glow"></span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-5 3.5-7 8-7s7.2 2 8 7"/></svg><span class="filter-title">项目</span></button>
+          <button class="filter-item" data-filter="digital" style="--from:#80FF72;--to:#7EE8FA" aria-label="原因"><span class="filter-fill"></span><span class="filter-glow"></span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span class="filter-title">原因</span></button>
+        </div>
+      </header>
+
+      <div class="grid">
+        <article class="project project-wide" data-category="identity" data-title="Mono House" data-year="2026" data-desc="为当代艺术空间建立一套会呼吸的视觉识别。克制的文字系统与高饱和色块，在平面和数字媒介之间自由伸缩。">
+          <button class="card" aria-label="查看 Mono House 项目">
+            <div class="visual visual-mono">
+              <div class="project-video" hidden>
+                <video class="mono-video" autoplay muted playsinline preload="metadata" data-loop-end="10" aria-label="Mono House 动态封面，循环播放前十秒">
+                  <source src="assets/video/mono-house.webm" type="video/webm">
+                  <source src="assets/video/mono-house.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="game-copy">
+                <p class="game-kicker">2D Interactive Game</p>
+                <h4>珊瑚星海</h4>
+                <p class="game-subtitle">2D休闲互动小游戏</p>
+                <dl>
+                  <div><dt>开发工具</dt><dd>Godot 4.7 + Codex + ChatGPT</dd></div>
+                  <div><dt>开发时长</dt><dd>1天</dd></div>
+                </dl>
+                <p class="game-description">独立使用Godot引擎完成2D休闲小游戏完整开发。负责场景布局、动画效果、元素逻辑控制，实现水母漂浮、气泡生成、海底生物巡逻、背景粒子特效等交互效果。将项目打包为HTML5网页版本并部署至在线平台，支持浏览器直接点开游玩，熟悉游戏打包、网页部署完整流程。</p>
+              </div>
+            </div>
+            <div class="meta"><h3>Mono House</h3><p>Brand identity · 2026</p><span>↗</span></div>
+          </button>
+        </article>
+
+        <article class="project project-tall" data-category="digital" data-title="Other Weather" data-year="2025" data-desc="一款把天气变成情绪风景的实验性应用。界面会随温度、风速与时间改变色彩、颗粒和运动方式。">
+          <button class="card" aria-label="查看 Other Weather 项目">
+            <div class="visual visual-weather" aria-label="暖橙色渐变背景"><div class="workshop-copy"><p class="workshop-kicker">WHY THIS WORKSHOP</p><h4>学习期待</h4><p>希望系统学习AI落地实操能力，学会运用AI工具解决真实业务问题。</p><p>课余我已自主自学搭建AI运行环境，熟练使用ChatGPT、Codex独立完成小型项目开发，具备一定自主实践基础。本次工坊班包含完整AI全栈、AIGC创作以及真实产业实战项目，70%实践课程的模式十分契合我的学习需求。</p><p>我做事计划性强，乐于主动钻研新技能，对AI和新媒体出海内容抱有浓厚好奇心与行动力。希望能够加入工坊班，在企业导师指导下完成真实项目实训，补齐工程实战经验，为今后从事AI应用相关工作打下扎实基础。</p></div></div>
+            <div class="meta"><h3>Other Weather</h3><p>Digital product · 2025</p><span>↗</span></div>
+          </button>
+        </article>
+
+        <article class="project project-wide" data-category="digital" data-title="Field Notes" data-year="2024" data-desc="为创意团队设计的轻量知识库。让碎片想法自然地聚合为项目、主题和可分享的故事。">
+          <button class="card" aria-label="查看 Field Notes 项目">
+            <div class="visual visual-field"><div class="note n1 profile-note"><p><b>姓名</b> 张雅雯</p><p><b>年龄</b> 20</p><p><b>专业</b> 信息安全243</p><p><b>意向岗位</b><br>AI应用工程师<br>AI全栈工程师</p></div><div class="note n2 ai-note"><b>AI PRACTICE / 04</b><p>在校期间主动拓展AI相关实践，熟练运用ChatGPT、Codex独立完成两项小型开发项目；依靠自学完成AI运行环境搭建与相关工具配置，具备独立落地小型实践项目的能力。</p></div><div class="note n3 personality-note"><b>PERSONALITY / INTERESTS</b><p>性格做事条理清晰，规划性较强，乐于主动学习各类新技术。课余坚持自学绘画，喜爱唱歌，兴趣广泛。</p></div></div>
+            <div class="meta"><h3>Field Notes</h3><p>Product design · 2024</p><span>↗</span></div>
+          </button>
+        </article>
+
+        <article class="project project-tall" data-category="identity" data-title="Serein" data-year="2024" data-desc="一个关于雨后气味的护肤品牌。材质、摄影与版式共同构成安静而带触感的品牌世界。">
+          <button class="card" aria-label="查看 Serein 项目">
+            <div class="visual visual-serein"><span class="vertical">SEREIN</span><div class="serein-video" hidden><video class="serein-loop-video" autoplay muted playsinline preload="metadata" data-loop-end="10" aria-label="Serein 动态封面，循环播放前十秒"><source src="assets/video/serein.mp4" type="video/mp4"></video></div><div class="pet-copy"><p class="pet-kicker">Desktop GUI Project</p><h4>自定义桌面宠物</h4><p class="pet-tools"><span>工具</span> Codex + Skill hatch-pet</p><p class="pet-description">借助Codex快速开发桌面GUI程序，生成包含宠物动作的webpage文件，实现窗口置顶、角色跟随、待机动画；支持自定义外观素材，完成完整可运行成品，锻炼快速原型开发与代码调试能力。</p></div></div>
+            <div class="meta"><h3>Serein</h3><p>Identity & packaging · 2024</p><span>↗</span></div>
+          </button>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer><p>© 2026 Doyoung</p><p>Designing with care.</p><a href="#top">Back to top ↑</a></footer>
+
+  <dialog class="modal">
+    <button class="modal-close" aria-label="关闭项目">Close ×</button>
+    <div class="modal-art"></div>
+    <div class="modal-info"><span class="modal-year"></span><h2 class="modal-title"></h2><p class="modal-desc"></p><a href="mailto:hello@example.com">Start a project ↗</a></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
